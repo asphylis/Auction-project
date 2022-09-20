@@ -17,4 +17,11 @@ Last, to boot the server, you must run the following line of code:
 Once the server is booted, you will be provided with a URL to access the site. To shut down the server, use the keyboard shortcut cntrl + c while on the terminal.
 
 ## Accessing the Admin page
-To get a look at the structure of the models in the database, you can login to the admin page. In order to do this, add "/admin" after the URL (ex. http://127.0.0.1:8000/admin). Next, login with the following credentials: Username:suhel; Password:keswani. From here, you can view data stored and modify it.
+To get a look at the structure of the models in the database, you can login to the admin page. In order to do this, add "/admin" after the URL (ex. http://127.0.0.1:8000/admin).
+But before that run the command
+```
+python manage.py createsuperuser
+```
+You will be asked for the following:
+username, email, password
+enter values accordingly and you should be good to go.
